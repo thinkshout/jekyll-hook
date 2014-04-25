@@ -3,7 +3,7 @@
     "temp": "./tmp/jekyll-hook",
     "scripts": {
         "build": "./scripts/build.sh",
-        "publish": "./scripts/publish-s3.sh"
+        "publish": "./scripts/publish.sh"
     },
     "email": {
         "user": "",
