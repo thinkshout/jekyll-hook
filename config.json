@@ -1,0 +1,17 @@
+{
+    "gh_server": "github.com",
+    "temp": "./tmp/jekyll-hook",
+    "scripts": {
+        "build": "./scripts/build.sh",
+        "publish": "./scripts/publish-s3.sh"
+    },
+    "email": {
+        "user": "",
+        "password": "",
+        "host": "",
+        "ssl": true
+    },
+    "accounts": [
+        "thinkshout"
+    ]
+}
