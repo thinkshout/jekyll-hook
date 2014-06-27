@@ -20,7 +20,7 @@ app.post('/hooks/jekyll', function(req, res) {
 
     // Queue request handler
     tasks.defer(function(req, res, cb) {
-        var data = JSON.parse(req.body.payload);
+        var data = req.body.payload;
         var branch = req.params.branch;
         var params = [];
 
