@@ -13,7 +13,7 @@ var mailer  = email.server.connect(config.email);
 app.use(express.bodyParser());
 
 // Receive webhook post
-app.post('/hooks/jekyll/:branch', function(req, res) {
+app.post('/hooks/jekyll', function(req, res) {
 
     // Close connection
     res.send(202);
