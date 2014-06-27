@@ -12,4 +12,4 @@ giturl=$4
 source=$5
 build=$6
 
-s3_website push --headless
+s3_website push --headless --site="$source/_site"

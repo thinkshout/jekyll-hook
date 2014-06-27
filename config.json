@@ -13,5 +13,9 @@
     },
     "accounts": [
         "thinkshout"
+    ],
+    "branches": [
+      "master",
+      "live"
     ]
 }

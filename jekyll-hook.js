@@ -37,8 +37,8 @@ app.post('/hooks/jekyll/:branch', function(req, res) {
         }
 
         // End early if not permitted branch
-        if (data.branch !== branch) {
-            console.log('Not ' + branch + ' branch.');
+        if (config.branches.indexOf(data.branch) === -1) {
+            console.log(data.branch ' is not configured for deployment.');
             if (typeof cb === 'function') cb();
             return;
         }
