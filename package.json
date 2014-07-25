@@ -3,18 +3,18 @@
     "description": "A server that listens for GitHub webhook posts and renders a Jekyll site",
     "homepage": "http://github.com/developmentseed/jekyll-hook",
     "author": {
-        "name": "Development Seed",
-        "url": "http://developmentseed.org/",
-        "email": "info@developmentseed.org"
+        "name": "ThinkShout",
+        "url": "http://thinkshout.com",
+        "email": "info@thinkshout.com"
     },
     "contributors": [
-        "Dave Cole <dave@developmentseed.org>"
+        "Lev Tsypin <lev@thinkshout.com>"
     ],
     "repository": {
         "type": "git",
         "url": "git://github.com/developmentseed/jekyll-hook.git"
     },
-    "version": "0.1.0",
+    "version": "0.0.1",
     "dependencies": {
         "express": "3.x",
         "queue-async": "1.0.x"
